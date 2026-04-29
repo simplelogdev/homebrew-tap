@@ -1,8 +1,8 @@
 cask "simplelog" do
   version "2.3.0"
-  sha256 :no_check # à remplacer par le vrai SHA256 du DMG une fois disponible
+  sha256 :no_check
 
-  url "https://github.com/simplelogdev/simplelog/releases/download/v#{version}/SimpleLog-#{version}.dmg"
+  url "https://github.com/simplelogdev/simplelog/releases/download/v#{version}/SimpleLog-macOS.dmg"
   name "SimpleLog"
   desc "Fast Material Design log viewer for CloudWatch, SSH, Docker, Vercel, GCP, Azure and local files"
   homepage "https://github.com/simplelogdev/simplelog"
