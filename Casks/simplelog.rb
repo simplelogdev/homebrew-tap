@@ -1,8 +1,8 @@
 cask "simplelog" do
-  version "1.4.3"
-  sha256 "d13d9d30fd76d34f32ac2246d0f41b0d6b8dcd1259ba3b10a3ab94f8da3cd510"
+  version "1.4.7"
+  sha256 "07472f1df3e37e290d25b4e783ad813d6d793ad73f00ef6f75c8a4a6e3df1acb"
 
-  url "https://github.com/simplelogdev/simplelog/releases/download/v#{version}/SimpleLog-macOS-universal.dmg"
+  url "https://github.com/simplelogdev/simplelog/releases/download/v#{version}/SimpleLog-macOS.dmg"
   name "SimpleLog"
   desc "Fast Material Design log viewer for CloudWatch, SSH, Docker, Vercel, GCP, Azure and local files"
   homepage "https://github.com/simplelogdev/simplelog"
